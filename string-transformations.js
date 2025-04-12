@@ -26,7 +26,7 @@ function isPalindrome(str) {
   }
   console.log(isPalindrome('dad'));
 
-5.
+// 5.snake_case notation.
 
   function toSnakeCase(str) {
     if (typeof str === 'number') return String(str);
