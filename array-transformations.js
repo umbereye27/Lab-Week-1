@@ -27,7 +27,7 @@ function average(arr){
 }
 console.log(average([]))
 
-
+// 5.Create a new list that contains each number of list at most N times, without reordering.
 function deleteNth(arr, n) {
     
     const count = {};
