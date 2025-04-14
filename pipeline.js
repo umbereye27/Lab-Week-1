@@ -18,11 +18,7 @@ const data = [
   { id: 3, name: 'Charlie', age: 28, score: [85, 90, 95] }
 ];
 
-// Using the pipeline to process the data
 const result = processData(data);
 console.log(result);
-// Expected output: [
-//   { name: 'Charlie', avgScore: 90 },
-//   { name: 'Alice', avgScore: 75 }
-// ]
+
   
