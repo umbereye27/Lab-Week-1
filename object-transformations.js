@@ -11,7 +11,7 @@ function isAdult(person){
 }
 console.log(isAdult({age:18}))
 
-// 3.
+// 3.ilters an array of person objects to keep only those at least minAge years old
 
 function filterByAge(peaple, minAge){
     return peaple.filter( person => person.age <= minAge )
